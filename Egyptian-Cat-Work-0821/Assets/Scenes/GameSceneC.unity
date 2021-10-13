@@ -223,8 +223,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 82}
-  m_SizeDelta: {x: 292.8894, y: 103.48}
+  m_AnchoredPosition: {x: 0, y: 62.8631}
+  m_SizeDelta: {x: 384.1575, y: 141.7537}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &130126721
 MonoBehaviour:
@@ -1099,6 +1099,21 @@ MonoBehaviour:
   imgHp: {fileID: 1369650283}
   posHp: {fileID: 1369650281}
   v3HpOffset: {x: 4, y: 1.3, z: 0}
+  onDead:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1004216237}
+        m_TargetAssemblyTypeName: GameOverController, Assembly-CSharp
+        m_MethodName: ShowGameOverView
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   checkForwardOffset: {x: 2, y: -5, z: 0}
   checkForwardRadius: 0.3
   hits: []
@@ -1148,8 +1163,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 553, y: 311}
+  m_AnchoredPosition: {x: 0, y: -0.0000060797}
+  m_SizeDelta: {x: 561, y: 315.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &970189481
 MonoBehaviour:
@@ -1252,10 +1267,14 @@ MonoBehaviour:
   aniFinal: {fileID: 970189483}
   textFinalTitle: {fileID: 130126721}
   textFinalChoose: {fileID: 1106664866}
-  stringWin: "\u606D\u559C\u4F60\u64CA\u6557\u6B7B\u795E\n\u6210\u529F\u9003\u51FA\u91D1\u5B57\u5854\u4E86\uFF01"
-  stringLose: "\u6311\u6230\u5931\u6557...\n\u518D\u6311\u6230\u4E00\u6B21\u5427..."
-  chooseWin: "\u6309Q\u56DE\u4E3B\u9078\u55AE"
-  chooseLose: "\u6309R\u91CD\u65B0\u6311\u6230\n\u6309Q\u56DE\u4E3B\u9078\u55AE"
+  stringWin: "Congratulations you escaped from the pyramid\uFF01"
+  stringLose: 'Challenge failed...
+
+    Challenge again...'
+  chooseWin: Press Q to Menu
+  chooseLose: 'Press R to restart
+
+    Press Q to Menu'
   nextScene: 
   scene: GameSceneC
   menu: Menu
@@ -1310,8 +1329,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000038147, y: -78.219284}
-  m_SizeDelta: {x: 268.7342, y: 90.0303}
+  m_AnchoredPosition: {x: -0.0000076294, y: -77}
+  m_SizeDelta: {x: 333.5051, y: 90.0303}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1106664866
 MonoBehaviour:

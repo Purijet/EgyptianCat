@@ -567,8 +567,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -70}
-  m_SizeDelta: {x: 233.6764, y: 117.5776}
+  m_AnchoredPosition: {x: 0.00001514, y: -69.394}
+  m_SizeDelta: {x: 360.274, y: 117.5776}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &222802672
 MonoBehaviour:
@@ -1041,9 +1041,11 @@ MonoBehaviour:
   aniFinal: {fileID: 2010404062}
   textFinalTitle: {fileID: 1003871200}
   textFinalChoose: {fileID: 222802672}
-  stringWin: "\u611F\u8B1D\u4F60\u8B93\u7D22\u65AF\u6062\u5FA9\u795E\u529B...\n\u53EF\u4EE5\u7E7C\u7E8C\u5F80\u524D\u9032\u4E86\uFF01"
+  stringWin: "Thank you for restoring Thoth...\nYou can move on\uFF01"
   stringLose: "\u6311\u6230\u5931\u6557...\n\u518D\u6311\u6230\u4E00\u6B21\u5427..."
-  chooseWin: "\u6309N\u5F80\u4E0B\u4E00\u95DC\n\u6309R\u91CD\u65B0\u958B\u59CB"
+  chooseWin: 'Press N to the next level
+
+    Press R to restart'
   chooseLose: 
   nextScene: GameSceneB
   scene: PuzzleScene
@@ -2736,8 +2738,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 120}
-  m_SizeDelta: {x: 437.4551, y: 61.7092}
+  m_AnchoredPosition: {x: 1.249, y: 105.15}
+  m_SizeDelta: {x: 519.8907, y: 101.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1955672961
 MonoBehaviour:
@@ -2772,7 +2774,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8ACB\u5C07\u56DB\u6563\u7684\u7D22\u65AF\u62FC\u56DE\u539F\u578B..."
+  m_Text: Please put the scattered Thoth back into the original...
 --- !u!222 &1955672962
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2820,7 +2822,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 554, y: 311.4}
+  m_SizeDelta: {x: 561, y: 315.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2010404060
 MonoBehaviour:

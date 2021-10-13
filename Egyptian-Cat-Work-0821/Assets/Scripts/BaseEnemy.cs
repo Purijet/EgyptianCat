@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 using System.Linq;
 
 /// <summary>
@@ -83,6 +84,8 @@ public class BaseEnemy : MonoBehaviour
     public RectTransform posHp;
     public Vector3 v3HpOffset;
     private float hpMax;
+    [Header("死亡事件")]
+    public UnityEvent onDead;
 
     #region 事件
     private void Start()
@@ -334,7 +337,8 @@ public class BaseEnemy : MonoBehaviour
         GetComponent<CapsuleCollider2D>().enabled = false;      // 關閉碰撞器
         rig.velocity = Vector3.zero;                            // 加速度歸零
         rig.constraints = RigidbodyConstraints2D.FreezeAll;     // 剛體凍結全部
-        
+
+        onDead.Invoke();
         DropProp();
 
         // TeleportManager.countAllEnemy--;        // 通知傳送管理將數量 -1

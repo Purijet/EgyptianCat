@@ -5682,10 +5682,19 @@ MonoBehaviour:
   aniFinal: {fileID: 1156528892}
   textFinalTitle: {fileID: 1516168306}
   textFinalChoose: {fileID: 1663997607}
-  stringWin: "\u4F60\u5DF2\u7D93\u62B5\u9054\u8A66\u7149\u4E4B\u9580...\n\u8981\u63A5\u53D7\u7D22\u65AF\u7684\u8003\u9A57\u55CE?"
-  stringLose: "\u6311\u6230\u5931\u6557...\n\u518D\u6311\u6230\u4E00\u6B21\u5427..."
-  chooseWin: "\u6309N\u5F80\u4E0B\u4E00\u95DC\n\u6309R\u91CD\u65B0\u958B\u59CB"
-  chooseLose: "\u6309R\u91CD\u65B0\u958B\u59CB\n\u6309Q\u96E2\u958B\u904A\u6232"
+  stringWin: 'You have reached the gate of trial...
+
+    Do you have to accept Thoth''s
+    test?'
+  stringLose: 'Challenge failed...
+
+    Challenge again...'
+  chooseWin: 'Press N to the next level
+
+    Press R to restart'
+  chooseLose: 'Press R to restart
+
+    Press Q to quit'
   nextScene: PuzzleScene
   scene: GameScene
   menu: Menu
@@ -6637,8 +6646,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000085831, y: 168.467}
-  m_SizeDelta: {x: 800, y: 250}
+  m_AnchoredPosition: {x: -0.0000085831, y: 135.116}
+  m_SizeDelta: {x: 800, y: 316.702}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1516168306
 MonoBehaviour:
@@ -6916,8 +6925,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: -91}
-  m_SizeDelta: {x: 630, y: 200}
+  m_AnchoredPosition: {x: 0.000019073, y: -186}
+  m_SizeDelta: {x: 755.401, y: 234.685}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1663997607
 MonoBehaviour:
@@ -119453,12 +119462,12 @@ PrefabInstance:
     - target: {fileID: 6239927492146393633, guid: 2b69c5799909c07409949f2969b96622,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.7
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 6239927492146393633, guid: 2b69c5799909c07409949f2969b96622,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.9
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6239927492146393633, guid: 2b69c5799909c07409949f2969b96622,
         type: 3}

@@ -417,8 +417,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -70}
-  m_SizeDelta: {x: 200, y: 80}
+  m_AnchoredPosition: {x: 0, y: -78}
+  m_SizeDelta: {x: 331.0138, y: 99.1368}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &211883174
 MonoBehaviour:
@@ -1107,8 +1107,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 555, y: 310}
+  m_AnchoredPosition: {x: 0, y: -0.000021338}
+  m_SizeDelta: {x: 561, y: 315.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &969468344
 MonoBehaviour:
@@ -1290,9 +1290,11 @@ MonoBehaviour:
   aniFinal: {fileID: 969468347}
   textFinalTitle: {fileID: 1257234673}
   textFinalChoose: {fileID: 211883174}
-  stringWin: "\u611F\u8B1D\u4F60\u8B93\u963F\u52AA\u6BD4\u65AF\u6062\u5FA9\u795E\u529B...\n\u53EF\u4EE5\u6311\u6230\u6B7B\u795E\u4E86\uFF01"
+  stringWin: "Thank you for restoring Anubis...\nYou can move on\uFF01"
   stringLose: "\u6311\u6230\u5931\u6557...\n\u518D\u6311\u6230\u4E00\u6B21\u5427..."
-  chooseWin: "\u6309N\u5F80\u4E0B\u4E00\u95DC\n\u6309R\u91CD\u65B0\u958B\u59CB"
+  chooseWin: 'Press N to the next level
+
+    Press R to restart'
   chooseLose: 
   nextScene: GameSceneC
   scene: PuzzleSceneB
@@ -1719,8 +1721,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 60}
-  m_SizeDelta: {x: 480, y: 100}
+  m_AnchoredPosition: {x: 0, y: 48.22348}
+  m_SizeDelta: {x: 480, y: 123.553}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1257234673
 MonoBehaviour:
@@ -3029,8 +3031,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 120}
-  m_SizeDelta: {x: 500, y: 100}
+  m_AnchoredPosition: {x: 0, y: 107.70001}
+  m_SizeDelta: {x: 530.5, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2116183732
 MonoBehaviour:
@@ -3065,7 +3067,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8ACB\u5C07\u56DB\u6563\u7684\u963F\u52AA\u6BD4\u65AF\u62FC\u56DE\u539F\u5F62..."
+  m_Text: Please put the scattered Anubis back into the original...
 --- !u!222 &2116183733
 CanvasRenderer:
   m_ObjectHideFlags: 0
